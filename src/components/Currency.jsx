@@ -9,7 +9,7 @@ const Currency = ({ currency, currentCount }) => {
   };
   return (
     <button onClick={handleAddCurrencyClick}>
-      <span style={{fontSize:"1.2rem", fontWeight:"bolder"}}>+${currency.currenciesDisplay}</span>
+      <span style={{fontSize:"1.2rem", fontWeight:"bolder"}}>+ ${currency.currenciesDisplay}</span>
       <br />
       <span style={{fontSize:"1rem", fontWeight:"bold"}}>{currentCount > 0 ?  "x "+currentCount  : null}</span>
     </button>

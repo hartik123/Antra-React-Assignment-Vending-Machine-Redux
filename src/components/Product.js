@@ -7,7 +7,7 @@ const Product = ({ product, productClick }) => {
             <div>
                 <label className='product-name'>{product.name}</label>
                 <br />
-                <label>Price: {product.price}</label>
+                <label>Price: ${product.price}</label>
             </div>
             <label>Stock: {product.stock}</label>
             <br />
