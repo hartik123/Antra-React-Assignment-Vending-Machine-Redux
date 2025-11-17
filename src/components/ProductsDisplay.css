@@ -1,0 +1,9 @@
+.products-collection{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    row-gap: 20px;
+    column-gap: 10px;
+}

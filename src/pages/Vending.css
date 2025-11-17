@@ -1,0 +1,19 @@
+.vending-machine{
+    display: flex;
+    background-color: #282826;
+    width:60%;
+    margin: 2rem  auto;
+    min-height: 90vh;
+}
+
+.products-display{
+    width: 70%;
+    background-color:#4D5250;
+    min-height: 70vh;
+    border:25px solid #969694 ;
+}
+
+.operation-display{
+    width: 30%;
+}
+

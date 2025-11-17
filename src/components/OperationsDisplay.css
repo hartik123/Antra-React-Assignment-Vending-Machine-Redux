@@ -1,0 +1,26 @@
+.operations-display {
+  display: flex;
+  flex-direction: column;   
+  gap: 2rem;               
+  padding: 1rem;
+  justify-content: space-between; 
+  align-content: center;
+  margin: 0 1rem
+}
+
+
+.operations-display > div {
+  background: rgba(243, 243, 243, 0.2);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.currencies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.buy-btn{
+  width: 70px
+}

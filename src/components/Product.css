@@ -1,0 +1,26 @@
+.item {
+  padding: 10px;
+  background-color: #8C4C09;
+  width: 10rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div>label {
+  margin: 10px !important;
+}
+
+.product-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.product-id{
+  background-color: #f28f26;
+  border-radius: 1rem;
+  width: 70%;
+  padding: 5px;
+}
